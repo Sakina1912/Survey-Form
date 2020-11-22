@@ -1,0 +1,122 @@
+
+.b{
+    position: relative;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 0px;
+}
+form{position: absolute; max-width: 3000px; display: inline-block; padding: 10px;}
+
+.b::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url("https://www.jobs.ie/job-talk/wp-content/uploads/customer-service-1.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.30;
+}
+
+input{
+    border-radius: 5px;
+    width: 50%;
+    height: 20px;
+    margin-left: 40px;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+#container{
+    width: 700px;
+    height: 875px;
+    position: relative;
+    margin-left: 450px;
+    /*margin-top: 0px;*/
+    background-color: rgb(211,211,211,0.5);
+}
+#radio,#check{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 40px;
+}
+#textarea{margin-left: 40px; display: flex; flex-wrap: wrap;}
+
+#submit{
+    width: 90%;
+    align-content: center;
+    margin-left: 20px;
+    height: 40px;
+    background-color: green;
+    font-weight: bold;
+    font-size: medium;
+}
+h1,#description{
+    text-align: center;
+}
+#description{
+    font-style: italic;
+    font-size: 20px;
+}
+select{
+    width: 50%;
+    height: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:1295px){
+    #container{
+        width: 650px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #container{
+        width: 650px;
+        margin-left: 400px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:1100px){
+    #container{
+        width: 650px;
+        margin-left: 350px;
+    }
+    label{
+        font-size: 15px;
+    }
+    input{
+        width: 40%;
+    }
+    #radio,#check{
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width:1070px){
+    #container{width: 600px;margin-left: 300px;}}
+    
+@media screen and (max-width:1000px){
+    #container{width: 580px;margin-left: 250px;}}
+
+@media screen and (max-width:910px){
+    #container{margin-left: 180px;}
+}
+@media screen and (max-width:810px){
+    #container{margin-left: 100px;}
+    #textarea{min-width: 100px;}
+}
+
+@media screen and (max-width:740px){
+    #container{
+        width: 500px;
+        margin-left: 100px;
+    }
+}

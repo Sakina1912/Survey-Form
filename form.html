@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body class="b">
+    <div id="container">
+        <h1 id="title">Customer Satisfaction Survey Form</h1><p id="description">Thank you for taking the time to help us improve our service.</p>
+        <form id="survey-form">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" placeholder="Enter your Name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Enter your Email"><br>
+            <label for="number">If you have used our service before, how many times in the past year?</label><br>
+            <input type="number" id="number" min="1" max="10" placeholder="In Numbers"><br>
+            <label for="dropdown">Were you satisfied with the overall service you received?</label>
+            <select name="dropdown" id="dropdown">
+                <option value="Very Satisfied">Very Satisfied</option>
+                <option value="Somewhat Satisfied">Somewhat Satisfied</option>
+                <option value="Unsatisfied">Unsatisfied</option>
+                <option value="Neutral">Neutral</option><br>
+            </select>
+            <p id="radio">Would you recommend our service to a friend?</p>
+            <input type="radio" value="Definitely" name="radio" id="Definitely">
+            <label for="Definitely">Definitely</label>
+            <input type="radio" value="Maybe" name="radio" id="Maybe">
+            <label for="Maybe">Maybe</label>
+            <input type="radio" value="Not sure" name="radio" id="Not sure">
+            <label for="Not sure">Not sure</label><br>
+            <p id="check">Which of the following words would you use to describe our products?</p>
+            <input type="checkbox" value="checkbox" id="checkbox">
+            <label for="checkbox">High Quality</label>
+            <input type="checkbox" value="checkbox" id="checkbox">
+            <label for="checkbox">Relliable</label>
+            <input type="checkbox" value="checkbox" id="checkbox">
+            <label for="checkbox">Good Value for money</label>
+            <input type="checkbox" value="checkbox" id="checkbox">
+            <label for="checkbox">Impractical</label><br>
+            <label for="textarea">Other Feedback:</label><br>
+            <textarea  id="textarea" cols="70" rows="5"></textarea><br>
+            <input type="submit" id="submit" value="submit"><br><br>
+
+        </form>
+    </div>
+</body>
+</html>
+<!--https://www.shinyhappyworld.com/2012/05/length-of-yarn-by-weight-how-to-calculate.html-->
